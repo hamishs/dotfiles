@@ -1,2 +1,9 @@
 *
 !/.**
+
+# Claude Code local settings (personal, machine-specific)
+.claude/settings.local.json
+
+# Beads local cache (beads.jsonl is tracked)
+.beads/beads.db
+.beads/beads.db-*

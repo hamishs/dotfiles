@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "command": "nvim --server /tmp/nvim.sock --remote-send '<Cmd>checktime<CR>' 2>/dev/null || true",
+            "type": "command"
+          }
+        ],
+        "matcher": "Edit"
+      }
+    ]
+  }
+}

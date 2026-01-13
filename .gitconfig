@@ -1,4 +1,10 @@
 # This is Git's per-user configuration file.
 [user]
-name = Hamish Scott
-email = hamish.scott@icloud.com 
+	name = hamishs-nexar
+	email = hamish.scott@getnexar.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
